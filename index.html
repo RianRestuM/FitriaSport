@@ -55,7 +55,7 @@
         <h1>Welcome to My <span>Store</span></h1>
         <p>Hadiahkan Kebahagiaan dan Kejutan dengan Setiap Pembelian di Toko Kami - 
           Menyediakan Koleksi yang Memenuhi Harapan Anda</p>
-        <a href="#" class="cta">Beli sekarang</a>
+        <a href="#contact" class="cta">Beli sekarang</a>
       </main>
     </div>
   </section>
@@ -93,38 +93,45 @@
         <img src="img/menu/menu1.jpg" alt="Espresso" class="menu-card-img">
         <h3 class="menu-card-title">- Predator -</h3>
         <p class="menu-card-price">IDR 2.500.000K</p>
-        <a href="#" class="order">Beli sekarang</a>
+        <a href="#contact" class="order">Beli sekarang</a>
       </div>
       <div class="menu-card">
         <img src="img/menu/menu1.jpg" alt="Espresso" class="menu-card-img">
         <h3 class="menu-card-title">- Predator -</h3>
         <p class="menu-card-price">IDR 2.500.000K</p>
-        <a href="#" class="order">Beli sekarang</a>
+        <a href="#contact" class="order">Beli sekarang</a>
       </div>
       <div class="menu-card">
         <img src="img/menu/menu1.jpg" alt="Espresso" class="menu-card-img">
         <h3 class="menu-card-title">- Predator -</h3>
         <p class="menu-card-price">IDR 2.500.000K</p>
-        <a href="#" class="order">Beli sekarang</a>
+        <a href="#contact" class="order">Beli sekarang</a>
       </div>
       <div class="menu-card">
         <img src="img/menu/menu1.jpg" alt="Espresso" class="menu-card-img">
         <h3 class="menu-card-title">- Predator -</h3>
         <p class="menu-card-price">IDR 2.500.000K</p>
-        <a href="#" class="order">Beli sekarang</a>
+        <a href="#contact" class="order">Beli sekarang</a>
       </div>
       <div class="menu-card">
         <img src="img/menu/menu1.jpg" alt="Espresso" class="menu-card-img">
         <h3 class="menu-card-title">- Predator -</h3>
         <p class="menu-card-price">IDR 2.500.000K</p>
-        <a href="#" class="order">Beli sekarang</a>
+        <a href="#contact" class="order">Beli sekarang</a>
       </div>
       <div class="menu-card">
         <img src="img/menu/menu1.jpg" alt="Espresso" class="menu-card-img">
         <h3 class="menu-card-title">- Predator -</h3>
         <p class="menu-card-price">IDR 2.500.000K</p>
-        <a href="#" class="order">Beli sekarang</a>
+        <a href="#contact" class="order">Beli sekarang</a>
       </div>
+      <div class="menu-card">
+        <img src="img/menu/menu1.jpg" alt="Espresso" class="menu-card-img">
+        <h3 class="menu-card-title">- Predator -</h3>
+        <p class="menu-card-price">IDR 2.500.000K</p>
+        <a href="#contact" class="order">Beli sekarang</a>
+      </div>
+     
       
      
     </div>
@@ -171,7 +178,7 @@
               const email = encodeURIComponent(document.getElementById("email").value);
               const message = encodeURIComponent(document.getElementById("message").value);
       
-              const url = `https://web.whatsapp.com/send?phone=62895620690105&text=Hallo%20Admin%0ASaya%20*${name}*%0AEmail%20Saya%20*${email}*%0AMessage%20*${message}*`;
+              const url = `https://api.whatsapp.com/send?phone=62895620690105&text=Hallo%20Admin%0ASaya%20*${name}*%0AEmail%20Saya%20*${email}*%0AMessage%20*${message}*`;
       
               window.open(url, '_blank');
           }
